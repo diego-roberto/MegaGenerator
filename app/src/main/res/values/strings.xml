@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MegaGenerator</string>
+    <string name="button_sortear">Sortear</string>
+    <string name="text_title">quantidade de números:</string>
+    <string name="text_resultado">-</string>
+
+    <string-array name="spinner_quantidade_numeros">
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+    </string-array>
+
+</resources>
