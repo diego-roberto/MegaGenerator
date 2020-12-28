@@ -63,7 +63,7 @@ public class SimpleRandomOrgLib {
 		
 		tmpArrayListInt = new ArrayList();
 
-		String url = "http://www.random.org/integers/?num="+Integer.toString(amountOfNumbersToReturn)+"&min="+Integer.toString(minNumber)+"&max="+Integer.toString(maxNumber)+"&col=1&base=10&format=plain&rnd=new";
+		String url = "https://www.random.org/integers/?num="+Integer.toString(amountOfNumbersToReturn)+"&min="+Integer.toString(minNumber)+"&max="+Integer.toString(maxNumber)+"&col=1&base=10&format=plain&rnd=new";
 
 		tmpArrayListString = this.httpGet(url);
 		
@@ -84,7 +84,7 @@ public class SimpleRandomOrgLib {
 	public ArrayList<String> randomNumberBaseTenString(int amountOfNumbersToReturn,int minNumber, int maxNumber) throws Exception{
 
 
-		url = "http://www.random.org/integers/?num="+Integer.toString(amountOfNumbersToReturn)+"&min="+Integer.toString(minNumber)+"&max="+Integer.toString(maxNumber)+"&col=1&base=10&format=plain&rnd=new";
+		url = "https://www.random.org/integers/?num="+Integer.toString(amountOfNumbersToReturn)+"&min="+Integer.toString(minNumber)+"&max="+Integer.toString(maxNumber)+"&col=1&base=10&format=plain&rnd=new";
 		
 		return this.httpGet(url);
 		
@@ -98,7 +98,7 @@ public class SimpleRandomOrgLib {
 	 */
 	public ArrayList<String> randomNumberSequence(String minNumber, String maxNumber) throws Exception {
 		
-		url = "http://www.random.org/sequences/?min="+minNumber+"&max="+maxNumber+"&col=1&format=plain&rnd=new";
+		url = "https://www.random.org/sequences/?min="+minNumber+"&max="+maxNumber+"&col=1&format=plain&rnd=new";
 		
 		return this.httpGet(url);
 	}
